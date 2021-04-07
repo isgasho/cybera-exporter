@@ -11,7 +11,7 @@
 
  Start mock-server - download it from releases page:
 ```bash
-./bin/mock --port=8013
+./bin/mock-server --port=8013
 ```
 
  Start exporter with given api url, username and password, pointing to your `VictoriaMetrics`
@@ -35,6 +35,9 @@ grafana-cli plugins install grafana-worldmap-panel
 https://grafana.com/grafana/plugins/grafana-worldmap-panel/?tab=installation
 
  add dashboard from `dashboards/site.json`
+
+ <img alt="dashboard-example" src="geo.png">
+
 
 #### Configuration
 
